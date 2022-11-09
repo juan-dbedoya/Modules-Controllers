@@ -18,6 +18,7 @@ export class ContactsrController {
     if (user != undefined) {
       return this.contactsService.CreateContact(user);
     }
+    
     return undefined;
   }
   @Put('update')
